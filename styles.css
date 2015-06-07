@@ -3,11 +3,6 @@ body {
   font-weight: 300;
   color: #000000;
   font-size: 32px;
-  background: url(https://cloud.githubusercontent.com/assets/5771544/8023278/60005ca0-0cb9-11e5-9cb8-890053b14956.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-backgrund-size: cover;
-  background-size: cover;
 }
 
 a {
@@ -56,6 +51,15 @@ a:focus {
 }
 
 /*---welcome/landing---*/
+.napa-background {
+  background: url(https://cloud.githubusercontent.com/assets/5771544/8023278/60005ca0-0cb9-11e5-9cb8-890053b14956.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-backgrund-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
 .temp-welcome-text {
   font-size: 100%;
   font-weight: 100;
