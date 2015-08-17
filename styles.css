@@ -1,129 +1,297 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
   font-weight: 300;
-  color: #000000;
+  color: #000;
   font-size: 32px;
 }
 
 a {
-  color: #F9DAFF;
+  color: #fff;
   text-decoration: none;
-  background-color: #none;
+  background-color: none;
 }
 a:hover,
 a:focus {
-  color: #F9DAFF;
-  text-decoration: none;
-  font-weight: bold;
+  color: #fff;
+  text-decoration: underline;
 }
 
-.highlight a {
-	background-color: #F9DAFF;
+.spacer-10{
+  height: 10px;
+  width: 100%;
 }
 
-.col-md-6 {
-  margin-top: 6%;
+.spacer-25{
+  height: 25px;
+  width: 100%;
 }
 
-.column-1 {
-  margin-left: 22%;
-  margin-top: 1%;
+.spacer-60{
+  height: 60px;
+  width: 100%;
 }
 
-.icons {
-  margin-left: 10%;
-  margin-top: 10%;
+.spacer-100{
+  height: 100px;
+  width: 100%;
 }
 
-.icons img {
-  width: 5%;
-  height: 5%;
+.spacer-160{
+  height: 160px;
+  width: 100%;
 }
 
-.medium-bold {
-  font-weight: 500;
+.spacer-180{
+  height: 180px;
+  width: 100%;
 }
 
-.nav-slide {
-  margin-left: 80%;
-  position: fixed;
-  margin-top: -10%;
+.spacer-240{
+  height: 240px;
+  width: 100%;
 }
 
-/*---welcome/landing---*/
-.napa-background {
-  background: url(https://cloud.githubusercontent.com/assets/5771544/8023278/60005ca0-0cb9-11e5-9cb8-890053b14956.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-backgrund-size: cover;
+
+/*------------ main page ------------*/
+
+
+
+
+.hello-background{
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.3),
+      rgba(0,0,0,0.3)),
+    url(https://cloud.githubusercontent.com/assets/5771544/8023278/60005ca0-0cb9-11e5-9cb8-890053b14956.jpg)
+    no-repeat
+    center
+    center;
   background-size: cover;
+  position: relative;
   height: 100vh;
 }
 
-.temp-welcome-text {
-  font-size: 100%;
+.hello-text{
+  font-family: 'Pacifico';
+  font-size: 300%;
   font-weight: 100;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 2%;
-  padding-top: 2%;
-  margin-left: 4%;
-  margin-top: 0%;
-  margin-bottom: 3%;
-  color: #FFFFFF;
-  position: fixed;
-  bottom: 0;
+  color: #fff;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.hello2-text{
+  font-family: 'Futura';
+  font-size: 70%;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.welcome-background {
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/9055760/92126100-3a42-11e5-8efb-8357972be517.jpg)
+    no-repeat
+    center
+    center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.welcome-text {
+  font-size: 80%;
+  font-weight: 100;
+  padding-left: 7%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  color: #fff;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
 }
 
-.welcome-text {
+.welcome-text a{
+  color: #A2E47E;
+}
+
+.welcome-text a:hover,a:focus{
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.label-text{
+  font-family: 'Merriweather';
+  font-size: 50%;
+}
+
+.about-background {
+  background: #F8CA42;
+  height: 150vh;
+  position:relative;
+}
+
+.about-text {
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 240%;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
+
+.sobrr-background {
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/9020038/cd7d2960-37ad-11e5-82e2-9a1fa74027d4.png)
+    no-repeat
+    center
+    center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.app-text{
+  font-size: 50%;
+  font-weight: 600;
+}
+
+.watershed-background {
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/9029892/cccf4bee-394f-11e5-91f8-e38a6044b1ac.png)
+    no-repeat
+    center
+    center;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.quad-background{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/9303474/14a95196-4493-11e5-8245-b8c7dbbb3e83.png)
+    no-repeat
+    center
+    center;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.compiling-background{
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)),
+    url(https://cloud.githubusercontent.com/assets/5771544/9301515/e984aeb6-4483-11e5-97a8-ef3e6231a43e.png)
+    no-repeat
+    center
+    center;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.project-title {
+    font-size: 140%;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.project-subtitle {
+    font-size: 50%;
+    font-weight: 100;
+    color: #fff;
+}
+
+.project-subtitle a{
+  font-weight: 400;
+}
+
+.project-text {
+    font-size: 70%;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.project-text a{
+  font-weight: 400;
+}
+
+.project-button{
+  background-color:transparent;
+  border-radius:12px;
+  border:2px solid #fff;
+  color:#fff;
+  font-size:60%;
+  padding:16px 31px;
+  margin-left: 58%;
+  top:78%;
+  position:absolute;
+}
+
+.contact-background{
+  background: #fff;
+  height:100vh;
+  position: relative;
+}
+
+.contact-text{
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 240%;
+  font-weight: 700;
+  color: #000;
+  border-radius: 20px;
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
+
+.contact-text a{
+  color: #D5433D;
+}
+
+.contact-text a:hover,a:focus{
+  font-weight: 700;
+}
+
+.social-text{
+  font-family: 'Merriweather';
   font-size: 100%;
-  font-weight: 300;
-  margin-left: 40%;
-  margin-top: 10%;
-  margin-bottom: 20%;
+  color: #ababab;
+  border-radius: 20px;
+  letter-spacing: -2px;
 }
 
-/*---profile---*/
-.profile-image {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.profile-text {
-  position: relative;
-  bottom: -130%;
-  left: -8.0em;
-  width: 800px;
+.social-text a{
+  color: #000;
   font-weight: 500;
-  color: #FFFFFF;
-  font-size: 80%;
-  margin-left: 40%;
-  margin-top: -25%;
 }
 
-.profile-l1{
-  padding: 9px;
-  background-color: #000000;
-  opacity: 0.7;
-  line-height: 0.5;
-  margin-right: 27%;
+
+
+
+/*------------ sobrr page ------------*/
+
+
+
+
+.sobrr-banner{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/9301971/7d7ae22c-4487-11e5-9474-1b80b0939101.png)
+    no-repeat
+    center
+    center;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
 }
 
-.profile-l2{
-  padding: 9px;
-  background-color: #000000;
-  opacity: 0.7;
-  line-height: 0.5;
-  margin-right: 20%;
-}
-
-.profile-l3{
-  padding: 9px;
-  background-color: #000000;
-  opacity: 0.7;
-  line-height: 0.5;
-  margin-right: 20%;
+.sobrr-logo{
+  content:
+    url(https://cloud.githubusercontent.com/assets/5771544/9301974/843f9d78-4487-11e5-9b8f-b1d1946577d9.png);
+  height: 100px;
+  position: relative;
 }
