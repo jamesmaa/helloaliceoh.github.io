@@ -1,16 +1,137 @@
-@font-face{
-  font-family: 'Avenir Next';
-  src: url(AvenirNext.ttc);
+@font-face {
+  font-family: 'AvenirNext-Heavy';
+  src: url('avenir-next-font/AvenirNext-Heavy.eot');
+  src: url('avenir-next-font/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-Heavy.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-Heavy.ttf')  format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
 }
 
-@font-face{
-  font-family: 'Futura';
-  src: url(Futura.ttc);
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('avenir-next-font/AvenirNext-Regular.eot');
+  src: url('avenir-next-font/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-Regular.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-BoldItalic';
+  src: url('avenir-next-font/AvenirNext-BoldItalic.eot');
+  src: url('avenir-next-font/AvenirNext-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-BoldItalic.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-BoldItalic.ttf')  format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('avenir-next-font/AvenirNext-Bold.eot');
+  src: url('avenir-next-font/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-Bold.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-Bold.ttf')  format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-DemiBold';
+  src: url('avenir-next-font/AvenirNext-DemiBold.eot');
+  src: url('avenir-next-font/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-DemiBold.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-DemiBold.ttf')  format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-DemiBoldItalic';
+  src: url('avenir-next-font/AvenirNext-DemiBoldItalic.eot');
+  src: url('avenir-next-font/AvenirNext-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-DemiBoldItalic.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-DemiBoldItalic.ttf')  format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-UltraLight';
+  src: url('avenir-next-font/AvenirNext-UltraLight.eot');
+  src: url('avenir-next-font/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-UltraLight.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-UltraLight.ttf')  format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-MediumItalic';
+  src: url('avenir-next-font/AvenirNext-MediumItalic.eot');
+  src: url('avenir-next-font/AvenirNext-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-MediumItalic.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-MediumItalic.ttf')  format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-Italic';
+  src: url('avenir-next-font/AvenirNext-Italic.eot');
+  src: url('avenir-next-font/AvenirNext-Italic.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-Italic.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-Italic.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-UltraLightItalic';
+  src: url('avenir-next-font/AvenirNext-UltraLightItalic.eot');
+  src: url('avenir-next-font/AvenirNext-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-UltraLightItalic.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-UltraLightItalic.ttf')  format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-Medium';
+  src: url('avenir-next-font/AvenirNext-Medium.eot');
+  src: url('avenir-next-font/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-Medium.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-Medium.ttf')  format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext-HeavyItalic';
+  src: url('avenir-next-font/AvenirNext-HeavyItalic.eot');
+  src: url('avenir-next-font/AvenirNext-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('avenir-next-font/AvenirNext-HeavyItalic.woff') format('woff'),
+    url('avenir-next-font/AvenirNext-HeavyItalic.ttf')  format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
 }
 
 body {
-  font-family: 'Avenir Next', sans-serif;
-  font-weight: 300;
+  font-family: 'AvenirNext-UltraLight', 'Lato', sans-serif;
   color: #000;
   font-size: 32px;
 }
@@ -68,9 +189,6 @@ a:focus {
 
 /*------------ main page ------------*/
 
-
-
-
 .hello-background{
   background:
     linear-gradient(
@@ -82,7 +200,6 @@ a:focus {
     center;
   background-size: cover;
   position: relative;
-  height: 100vh;
 }
 
 .hello-text{
@@ -95,12 +212,31 @@ a:focus {
 }
 
 .hello2-text{
-  font-family: 'Futura';
+  font-family: 'Muli';
   font-size: 70%;
   font-weight: 100;
   color: #fff;
   letter-spacing: 10px;
   text-align: center;
+}
+
+.label-text{
+  font-family: 'Merriweather';
+  font-size: 50%;
+  color: #303030;
+}
+
+.about-background {
+  background: #F8CA42;
+  position:relative;
+}
+
+.about-text {
+  font-family: 'AvenirNext-Bold';
+  font-size: 240%;
+  color: #000;
+  line-height: 1.1;
+  letter-spacing: -2px;
 }
 
 .personal-background {
@@ -114,11 +250,10 @@ a:focus {
     center;
   background-size: cover;
   position: relative;
-  height: 100vh;
 }
 
 .personal-text {
-  font-family: 'Avenir Next', sans-serif;
+  font-family: 'AvenirNext-UltraLight';
   font-size: 80%;
   color: #fff;
   line-height: 1.5;
@@ -129,33 +264,12 @@ a:focus {
 }
 
 .personal-text a:hover, a:focus{
-  font-weight: 500;
+  font-family: 'AvenirNext-Regular';
   text-decoration: none;
 }
 
 .personal-background .label-text{
   color: #b2b2b2;
-}
-
-.label-text{
-  font-family: 'Merriweather';
-  font-size: 50%;
-  color: #303030;
-}
-
-.about-background {
-  background: #F8CA42;
-  height: 150vh;
-  position:relative;
-}
-
-.about-text {
-  font-family: 'Avenir Next', sans-serif;
-  font-size: 240%;
-  font-weight: 700;
-  color: #000;
-  line-height: 1.1;
-  letter-spacing: -2px;
 }
 
 .sobrr-background {
@@ -165,13 +279,7 @@ a:focus {
     center
     center;
   background-size: cover;
-  height: 100vh;
   position: relative;
-}
-
-.app-text{
-  font-size: 50%;
-  font-weight: 600;
 }
 
 .watershed-background {
@@ -180,7 +288,6 @@ a:focus {
     no-repeat
     center
     center;
-  height: 100vh;
   position: relative;
   background-size: cover;
 }
@@ -191,7 +298,6 @@ a:focus {
     no-repeat
     center
     center;
-  height: 100vh;
   position: relative;
   background-size: cover;
 }
@@ -205,37 +311,50 @@ a:focus {
     no-repeat
     center
     center;
-  height: 100vh;
   position: relative;
   background-size: cover;
 }
 
+.video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .project-title {
-    font-size: 140%;
-    font-weight: 500;
-    color: #fff;
-    line-height: 1.2;
+  font-family: 'AvenirNext-Regular';
+  font-size: 140%;
+  color: #fff;
+  line-height: 1.2;
 }
 
 .project-subtitle {
-    font-size: 50%;
-    font-weight: 100;
-    color: #fff;
+  font-size: 50%;
+  color: #fff;
 }
 
 .project-subtitle a{
-  font-weight: 400;
+  font-family: 'AvenirNext-Regular';
 }
 
 .project-text {
-    font-size: 70%;
-    font-weight: 300;
-    color: #fff;
-    border-radius: 20px;
+  font-family: 'AvenirNext-UltraLight';
+  font-size: 70%;
+  color: #fff;
+  border-radius: 20px;
 }
 
 .project-text a{
-  font-weight: 400;
+  font-family: 'AvenirNext-Regular';
 }
 
 .project-button{
@@ -252,14 +371,12 @@ a:focus {
 
 .contact-background{
   background: #fff;
-  height:100vh;
   position: relative;
 }
 
 .contact-text{
-  font-family: 'Avenir Next', sans-serif;
+  font-family: 'AvenirNext-Bold';
   font-size: 240%;
-  font-weight: 700;
   color: #000;
   border-radius: 20px;
   line-height: 1.1;
@@ -268,10 +385,6 @@ a:focus {
 
 .contact-text a{
   color: #D5433D;
-}
-
-.contact-text a:hover,a:focus{
-  font-weight: 700;
 }
 
 .social-text{
@@ -301,7 +414,6 @@ a:focus {
     no-repeat
     center
     center;
-  height: 100vh;
   position: relative;
   background-size: cover;
 }
@@ -311,4 +423,30 @@ a:focus {
     url(https://cloud.githubusercontent.com/assets/5771544/9301974/843f9d78-4487-11e5-9b8f-b1d1946577d9.png);
   height: 100px;
   position: relative;
+}
+
+
+@media only screen and (max-width: 40em) {
+  .hello-text {
+    font-size: 180%;
+  }
+  .hello2-text {
+    font-size: 50%;
+  }
+  .about-text {
+    font-size: 180%;
+  }
+  .contact-text {
+    font-size: 103%;
+  }
+}
+
+
+@media only screen and (min-width:40.0625em) and (max-width:64em){
+  .project-title {
+    font-size: 110%;
+  }
+  .contact-text {
+    font-size: 160%;
+  }
 }
