@@ -487,6 +487,9 @@ a:focus {
   .contact-text {
     font-size: 100%;
   }
+  .social-text {
+    font-size: 70%;
+  }
 }
 
 
