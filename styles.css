@@ -260,11 +260,12 @@ a:focus {
 }
 
 .personal-text a{
+  font-family: 'AvenirNext-Regular';
   color: #38c6ff;
 }
 
 .personal-text a:hover, a:focus{
-  font-family: 'AvenirNext-Regular';
+  font-family: 'AvenirNext-DemiBold';
   text-decoration: none;
 }
 
@@ -475,8 +476,8 @@ a:focus {
   .quad-background {
     background:
       linear-gradient(
-        rgba(0,0,0,0.8),
-        rgba(0,0,0,0.8)),
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
       url(https://cloud.githubusercontent.com/assets/5771544/9303474/14a95196-4493-11e5-8245-b8c7dbbb3e83.png)
       no-repeat
       center
