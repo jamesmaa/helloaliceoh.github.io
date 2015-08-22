@@ -436,8 +436,56 @@ a:focus {
   .about-text {
     font-size: 180%;
   }
+  .personal-background {
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+      url(https://cloud.githubusercontent.com/assets/5771544/9319313/0dc2b1a0-4502-11e5-8a89-a9e18f392a10.JPG)
+      no-repeat
+      center
+      center;
+    background-size: cover;
+    position: relative;
+  }
+  .sobrr-background {
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+      url(https://cloud.githubusercontent.com/assets/5771544/9020038/cd7d2960-37ad-11e5-82e2-9a1fa74027d4.png)
+      no-repeat
+      center
+      left;
+    background-size: cover;
+    position: relative;
+  }
+  .watershed-background {
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)),
+      url(https://cloud.githubusercontent.com/assets/5771544/9029892/cccf4bee-394f-11e5-91f8-e38a6044b1ac.png)
+      no-repeat
+      center
+      left;
+    background-size: cover;
+    position: relative;
+  }
+  .quad-background {
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)),
+      url(https://cloud.githubusercontent.com/assets/5771544/9303474/14a95196-4493-11e5-8245-b8c7dbbb3e83.png)
+      no-repeat
+      center
+      left;
+    background-size: cover;
+    position: relative;
+  }
   .contact-text {
-    font-size: 103%;
+    font-size: 100%;
   }
 }
 
@@ -445,6 +493,30 @@ a:focus {
 @media only screen and (min-width:40.0625em) and (max-width:64em){
   .project-title {
     font-size: 110%;
+  }
+  .watershed-background {
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
+      url(https://cloud.githubusercontent.com/assets/5771544/9029892/cccf4bee-394f-11e5-91f8-e38a6044b1ac.png)
+      no-repeat
+      center
+      left;
+    background-size: cover;
+    position: relative;
+  }
+  .quad-background {
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
+      url(https://cloud.githubusercontent.com/assets/5771544/9303474/14a95196-4493-11e5-8245-b8c7dbbb3e83.png)
+      no-repeat
+      center
+      left;
+    background-size: cover;
+    position: relative;
   }
   .contact-text {
     font-size: 160%;
