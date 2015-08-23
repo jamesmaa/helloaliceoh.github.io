@@ -147,26 +147,6 @@ a:focus {
   text-decoration: underline;
 }
 
-.spacer-10{
-  height: 10px;
-  width: 100%;
-}
-
-.spacer-25{
-  height: 25px;
-  width: 100%;
-}
-
-.spacer-60{
-  height: 60px;
-  width: 100%;
-}
-
-.spacer-100{
-  height: 100px;
-  width: 100%;
-}
-
 .spacer-160{
   height: 160px;
   width: 100%;
@@ -177,15 +157,6 @@ a:focus {
   width: 100%;
 }
 
-.spacer-240{
-  height: 240px;
-  width: 100%;
-}
-
-.spacer-300{
-  height: 300px;
-  width: 100%;
-}
 
 /*------------ main page ------------*/
 
@@ -224,6 +195,7 @@ a:focus {
   font-family: 'Merriweather';
   font-size: 50%;
   color: #303030;
+  margin-top: 10%;
 }
 
 .about-background {
@@ -237,6 +209,8 @@ a:focus {
   color: #000;
   line-height: 1.1;
   letter-spacing: -2px;
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
 
 .personal-background {
@@ -257,6 +231,8 @@ a:focus {
   font-size: 80%;
   color: #fff;
   line-height: 1.5;
+  margin-top: 3%;
+  margin-bottom: 10%;
 }
 
 .personal-text a{
@@ -271,6 +247,7 @@ a:focus {
 
 .personal-background .label-text{
   color: #b2b2b2;
+  margin-top: 52%;
 }
 
 .sobrr-background {
@@ -316,6 +293,10 @@ a:focus {
   background-size: cover;
 }
 
+.video-container {
+  margin-top: 25%;
+}
+
 .video {
   height: 0;
   overflow: hidden;
@@ -336,6 +317,8 @@ a:focus {
   font-size: 140%;
   color: #fff;
   line-height: 1.2;
+  margin-top: 60%;
+  margin-bottom: 3%;
 }
 
 .project-subtitle {
@@ -352,22 +335,16 @@ a:focus {
   font-size: 70%;
   color: #fff;
   border-radius: 20px;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 .project-text a{
   font-family: 'AvenirNext-Regular';
 }
 
-.project-button{
-  background-color:transparent;
-  border-radius:12px;
-  border:2px solid #fff;
-  color:#fff;
-  font-size:60%;
-  padding:16px 31px;
-  margin-left: 58%;
-  top:78%;
-  position:absolute;
+.button {
+  margin-bottom: 50%;
 }
 
 .contact-background{
@@ -382,6 +359,8 @@ a:focus {
   border-radius: 20px;
   line-height: 1.1;
   letter-spacing: -2px;
+  margin-top: 3%;
+  margin-bottom: 15%;
 }
 
 .contact-text a{
@@ -394,6 +373,7 @@ a:focus {
   color: #ababab;
   border-radius: 20px;
   letter-spacing: -2px;
+  margin-bottom: 5%;
 }
 
 .social-text a{
@@ -427,6 +407,9 @@ a:focus {
 }
 
 
+/*------------- screen sizes -----------*/
+
+
 @media only screen and (max-width: 40em) {
   .hello-text {
     font-size: 180%;
@@ -449,6 +432,15 @@ a:focus {
     background-size: cover;
     position: relative;
   }
+  .project-title {
+    margin-top: 40%;
+  }
+  .compiling-background .project-title {
+    margin-top: 15%;
+  }
+  .button {
+    margin-bottom: 30%;
+  }
   .sobrr-background {
     background:
       linear-gradient(
@@ -464,12 +456,12 @@ a:focus {
   .watershed-background {
     background:
       linear-gradient(
-        rgba(0,0,0,0.8),
-        rgba(0,0,0,0.8)),
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
       url(https://cloud.githubusercontent.com/assets/5771544/9029892/cccf4bee-394f-11e5-91f8-e38a6044b1ac.png)
       no-repeat
       center
-      left;
+      center;
     background-size: cover;
     position: relative;
   }
@@ -497,6 +489,15 @@ a:focus {
 @media only screen and (min-width:40.0625em) and (max-width:64em){
   .project-title {
     font-size: 110%;
+  }
+  .project-title {
+    margin-top: 40%;
+  }
+  .button {
+    margin-bottom: 40%;
+  }
+  .video-container {
+    margin-top: 18%;
   }
   .watershed-background {
     background:
