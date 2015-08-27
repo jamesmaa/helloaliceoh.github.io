@@ -382,31 +382,6 @@ a:focus {
 }
 
 
-
-
-/*------------ sobrr page ------------*/
-
-
-
-
-.sobrr-banner{
-  background:
-    url(https://cloud.githubusercontent.com/assets/5771544/9301971/7d7ae22c-4487-11e5-9474-1b80b0939101.png)
-    no-repeat
-    center
-    center;
-  position: relative;
-  background-size: cover;
-}
-
-.sobrr-logo{
-  content:
-    url(https://cloud.githubusercontent.com/assets/5771544/9301974/843f9d78-4487-11e5-9b8f-b1d1946577d9.png);
-  height: 100px;
-  position: relative;
-}
-
-
 /*------------- screen sizes -----------*/
 
 
@@ -507,7 +482,7 @@ a:focus {
       url(https://cloud.githubusercontent.com/assets/5771544/9029892/cccf4bee-394f-11e5-91f8-e38a6044b1ac.png)
       no-repeat
       center
-      left;
+      center;
     background-size: cover;
     position: relative;
   }
@@ -526,4 +501,35 @@ a:focus {
   .contact-text {
     font-size: 160%;
   }
+}
+
+
+
+
+
+/*------------- sobrr page -----------*/
+
+.project-page-title {
+  font-family: 'AvenirNext-DemiBold', 'Lato', sans-serif;
+  font-size: 150%;
+  color: #000;
+  margin-top: 20%;
+  margin-bottom: 4%;
+}
+
+.project-page-subtitle {
+  font-family: 'Libre Baskerville', 'Georgia', serif;
+  font-size: 70%;
+  color: #000;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+.project-page-text {
+  font-family: 'Libre Basketville', 'Georgia', serif;
+  font-size: 60%;
+  color: #000;
+  margin-top: 0%;
+  margin-bottom: 4%;
+
 }
