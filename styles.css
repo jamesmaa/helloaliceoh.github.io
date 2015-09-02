@@ -386,11 +386,16 @@ a:focus {
 
 
 @media only screen and (max-width: 40em) {
+  body{
+    font-family: 'AvenirNext-Regular', 'Lato', sans-serif;
+  }
   .hello-text {
     font-size: 180%;
+    letter-spacing: 5px;
   }
   .hello2-text {
     font-size: 50%;
+    letter-spacing: 5px;
   }
   .about-text {
     font-size: 180%;
@@ -509,17 +514,24 @@ a:focus {
 
 /*------------- sobrr page -----------*/
 
+.project-page-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
 .project-page-title {
   font-family: 'AvenirNext-DemiBold', 'Lato', sans-serif;
   font-size: 150%;
   color: #000;
-  margin-top: 20%;
+  margin-top: 4%;
   margin-bottom: 4%;
 }
 
 .project-page-subtitle {
   font-family: 'Libre Baskerville', 'Georgia', serif;
-  font-size: 70%;
+  font-size: 62%;
   color: #000;
   margin-top: 0%;
   margin-bottom: 2%;
@@ -527,9 +539,24 @@ a:focus {
 
 .project-page-text {
   font-family: 'Libre Basketville', 'Georgia', serif;
-  font-size: 60%;
+  font-size: 52%;
   color: #000;
   margin-top: 0%;
   margin-bottom: 4%;
+  list-style-type: disc;
+}
 
+.project-page-text a {
+  color: #2384d1;
+  text-decoration: none;
+}
+
+.project-page-text a:hover, a:focus {
+  text-decoration: underline;
+}
+
+ul.project-page-text li {
+  width: auto;
+  float: left;
+  margin-left: 5%;
 }
