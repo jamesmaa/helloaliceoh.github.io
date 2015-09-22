@@ -147,8 +147,8 @@ a:focus {
   text-decoration: underline;
 }
 
-.spacer-160{
-  height: 160px;
+.spacer-90{
+  height: 90px;
   width: 100%;
 }
 
@@ -456,6 +456,9 @@ a:focus {
       left;
     background-size: cover;
     position: relative;
+  }
+  .project-subtitle a{
+    font-family: 'AvenirNext-DemiBold';
   }
   .contact-text {
     font-size: 100%;
