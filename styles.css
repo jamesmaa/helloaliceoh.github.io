@@ -214,22 +214,14 @@ a:focus {
 }
 
 .personal-background {
-  background:
-    linear-gradient(
-      rgba(0,0,0,0.2),
-      rgba(0,0,0,0.2)),
-    url(https://cloud.githubusercontent.com/assets/5771544/9319313/0dc2b1a0-4502-11e5-8a89-a9e18f392a10.JPG)
-    no-repeat
-    center
-    center;
-  background-size: cover;
+  background: #f4f4f4;
   position: relative;
 }
 
 .personal-text {
-  font-family: 'AvenirNext-UltraLight';
+  font-family: 'AvenirNext-Regular';
   font-size: 80%;
-  color: #fff;
+  color: #000;
   line-height: 1.5;
   margin-top: 3%;
   margin-bottom: 10%;
@@ -246,8 +238,20 @@ a:focus {
 }
 
 .personal-background .label-text{
-  color: #b2b2b2;
-  margin-top: 52%;
+  color: #000;
+  margin-top: 5%;
+}
+
+.personal-image {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-image: url('https://cloud.githubusercontent.com/assets/5771544/9319313/0dc2b1a0-4502-11e5-8a89-a9e18f392a10.JPG');
+  background-size: cover;
+  background-position: center;
+  display: block;
+  border-radius: 50%;
+  margin-top: 10%;
 }
 
 .sobrr-background {
@@ -401,15 +405,7 @@ a:focus {
     font-size: 180%;
   }
   .personal-background {
-    background:
-      linear-gradient(
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.3)),
-      url(https://cloud.githubusercontent.com/assets/5771544/9319313/0dc2b1a0-4502-11e5-8a89-a9e18f392a10.JPG)
-      no-repeat
-      center
-      center;
-    background-size: cover;
+    background: #f4f4f4;
     position: relative;
   }
   .project-title {
