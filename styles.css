@@ -404,6 +404,10 @@ a:focus {
   .about-text {
     font-size: 180%;
   }
+  .personal-image {
+    width: 250px;
+    height: 250px;
+  }
   .personal-background {
     background: #f4f4f4;
     position: relative;
@@ -437,7 +441,7 @@ a:focus {
       url(https://cloud.githubusercontent.com/assets/5771544/10555292/a0654740-7421-11e5-96eb-fbe2b5b8235e.png)
       no-repeat
       center
-      center;
+      left;
     background-size: cover;
     position: relative;
   }
@@ -458,11 +462,16 @@ a:focus {
   }
   .social-text {
     font-size: 70%;
+    margin-bottom: 20%;
   }
 }
 
 
 @media only screen and (min-width:40.0625em) and (max-width:64em){
+  .personal-image {
+    width: 300px;
+    height: 300px;
+  }
   .project-title {
     font-size: 110%;
   }
