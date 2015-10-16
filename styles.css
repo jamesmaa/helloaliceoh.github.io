@@ -420,9 +420,9 @@ a:focus {
   .sobrr-background {
     background:
       linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)),
-      url(https://cloud.githubusercontent.com/assets/5771544/9020038/cd7d2960-37ad-11e5-82e2-9a1fa74027d4.png)
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)),
+      url(https://cloud.githubusercontent.com/assets/5771544/10554941/2181b67e-741d-11e5-8e6e-b8f984e4a17c.png)
       no-repeat
       center
       left;
@@ -432,9 +432,9 @@ a:focus {
   .watershed-background {
     background:
       linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
-      url(https://cloud.githubusercontent.com/assets/5771544/9029892/cccf4bee-394f-11e5-91f8-e38a6044b1ac.png)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)),
+      url(https://cloud.githubusercontent.com/assets/5771544/10555292/a0654740-7421-11e5-96eb-fbe2b5b8235e.png)
       no-repeat
       center
       center;
@@ -443,10 +443,7 @@ a:focus {
   }
   .quad-background {
     background:
-      linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
-      url(https://cloud.githubusercontent.com/assets/5771544/9303474/14a95196-4493-11e5-8245-b8c7dbbb3e83.png)
+      url(https://cloud.githubusercontent.com/assets/5771544/10555145/858c54a6-741f-11e5-84ec-3b0ac8c6fc8f.png)
       no-repeat
       center
       left;
