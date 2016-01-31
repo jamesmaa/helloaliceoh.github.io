@@ -349,6 +349,17 @@ a:focus {
 
 .button {
   margin-bottom: 50%;
+  background: transparent;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.button:hover{
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.2),
+      rgba(0,0,0,0.2));
 }
 
 .contact-background{
