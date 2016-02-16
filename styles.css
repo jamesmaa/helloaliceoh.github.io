@@ -107,6 +107,16 @@ a:hover,a:focus {
   margin-bottom: 10%;
 }
 
+.break{
+  background:
+    url('personal-icon.svg')
+    no-repeat
+    center
+    center;
+  height: 120px;
+  width: 120px;
+}
+
 .personal{
   font-weight: 300;
   font-size: 60%;
