@@ -286,21 +286,17 @@ a:hover,a:focus {
     font-size: 260%;
     letter-spacing: 5px;
   }
-
   .hello2{
     font-weight: 300;
     letter-spacing: 8px;
   }
-
   .bio {
     padding: 24px;
   }
-
   .bio span{
     font-size: 70%;
     line-height: 60px;
   }
-
   .project-title, .project-company, .project-description, .personal{
     padding-left: 9px;
   }
@@ -331,22 +327,40 @@ a:hover,a:focus {
     height: 120px;
     width: 100%;
   }
+  .spacer-20-small{
+    height: 20px;
+    width: 100%;
+  }
 
+  .model-background{
+    background: none;
+    background-size: none;
+    background-attachment: none;
+  }
+  .model-background-small{
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+      url(https://cloud.githubusercontent.com/assets/5771544/8023278/60005ca0-0cb9-11e5-9cb8-890053b14956.jpg)
+      no-repeat
+      center
+      center;
+    position: relative;
+    background-size: cover;
+  }
   .hello{
     font-size: 200%;
     letter-spacing: 4px;
   }
-
   .hello2{
     font-weight: 300;
     font-size: 40%;
     letter-spacing: 4px;
   }
-
   .bio {
-    padding: 15px;
+    padding: 24px;
   }
-
   .bio span{
     font-size: 70%;
     line-height: 60px;
@@ -354,13 +368,11 @@ a:hover,a:focus {
   .project-title, .project-company, .project-description, .personal{
     padding-left: 12px;
   }
-
   .medium-container{
     margin-top: 9px;
     margin-bottom: 18px;
     margin-right: 2px;
   }
-
   .medium-container:hover{
     margin-top: 9px;
     margin-bottom: 18px;
