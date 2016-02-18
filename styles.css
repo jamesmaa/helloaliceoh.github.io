@@ -64,10 +64,11 @@ a:hover,a:focus {
 
 .hello2{
   font-size: 50%;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   letter-spacing: 10px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .bio span{
@@ -92,12 +93,14 @@ a:hover,a:focus {
 .project-title{
   font-size: 90%;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .project-company{
   font-weight: 400;
   font-size: 50%;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .project-description{
@@ -175,6 +178,14 @@ a:hover,a:focus {
   height: 376px;
 /*  width: 960px;*/
   margin-bottom: 40px;
+}
+
+.proj-image:hover{
+  background-color: #FFD500;
+  opacity: 0.7;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .proj2{
@@ -308,6 +319,13 @@ a:hover,a:focus {
 /*  width: 960px;*/
 }
 
+.credits{
+  text-transform: uppercase;
+  font-size: 30%;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
 
 /*------------- screen sizes -----------*/
 
@@ -357,7 +375,6 @@ a:hover,a:focus {
     letter-spacing: 5px;
   }
   .hello2{
-    font-weight: 300;
     letter-spacing: 8px;
   }
   .bio {
@@ -426,7 +443,6 @@ a:hover,a:focus {
     letter-spacing: 4px;
   }
   .hello2{
-    font-weight: 300;
     font-size: 40%;
     letter-spacing: 4px;
   }
