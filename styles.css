@@ -161,109 +161,153 @@ a:hover,a:focus {
   margin-top: 10px;
 }
 
-
-
-
-/*
-
-.personal-image {
-  margin: auto;
-  width: 400px;
-  height: 400px;
-  background-image: url('https://cloud.githubusercontent.com/assets/5771544/9319313/0dc2b1a0-4502-11e5-8a89-a9e18f392a10.JPG');
-  background-size: cover;
-  background-position: center;
-  display: block;
-  border-radius: 50%;
-  margin-top: 10%;
+.proj-container{
+  margin: 0 auto;
+  width: 960px;
 }
 
-.sobrr-background {
+.proj1{
   background:
-    url(https://cloud.githubusercontent.com/assets/5771544/9020038/cd7d2960-37ad-11e5-82e2-9a1fa74027d4.png)
+    url(https://cloud.githubusercontent.com/assets/5771544/13134477/a008dc16-d5bb-11e5-90b3-6c412ecbfc69.png)
     no-repeat
     center
     center;
-  background-size: cover;
-  position: relative;
+  height: 376px;
+/*  width: 960px;*/
+  margin-bottom: 40px;
 }
 
-.watershed-background {
+.proj2{
   background:
-    url(https://cloud.githubusercontent.com/assets/5771544/10743895/46219980-7bf3-11e5-8d2c-140d6342e531.png)
+    url(https://cloud.githubusercontent.com/assets/5771544/13134478/a00e34ea-d5bb-11e5-9199-ee6e6d0723e9.png)
     no-repeat
     center
     center;
   position: relative;
-  background-size: cover;
+  height: 376px;
+/*  width: 620px;*/
+  margin-bottom: 40px;
 }
 
-.quad-background{
+.proj3{
   background:
-    url(https://cloud.githubusercontent.com/assets/5771544/10744062/82175528-7bf4-11e5-8bdc-074815517229.png)
+    url(https://cloud.githubusercontent.com/assets/5771544/13140764/c9ad72c0-d5e8-11e5-9564-43ebcea3337c.png)
     no-repeat
     center
     center;
   position: relative;
-  background-size: cover;
+  height: 376px;
+/*  width: 300px;*/
+  margin-bottom: 40px;
 }
 
-.compiling-background{
+.proj4{
   background:
-    linear-gradient(
-      rgba(0,0,0,0.6),
-      rgba(0,0,0,0.6)),
-    url(https://cloud.githubusercontent.com/assets/5771544/9301515/e984aeb6-4483-11e5-97a8-ef3e6231a43e.png)
+    url(https://cloud.githubusercontent.com/assets/5771544/13134480/a0114d88-d5bb-11e5-9db1-b4ec69534175.png)
     no-repeat
     center
     center;
   position: relative;
-  background-size: cover;
+  height: 376px;
+/*  width: 300px;*/
+  margin-bottom: 40px;
 }
 
-.video-container {
-  margin-top: 25%;
-}
-
-.video {
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
+.proj5{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13134481/a017bdf8-d5bb-11e5-9a2b-3bcbcdbd5ffd.png)
+    no-repeat
+    center
+    center;
   position: relative;
+  height: 180px;
+/*  width: 620px;*/
+  margin-bottom: 40px;
 }
 
-.video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.contact2-background{
-  background: #f4f4f4;
+.proj6{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13134482/a01921f2-d5bb-11e5-8174-1a02a0c12123.png)
+    no-repeat
+    center
+    center;
   position: relative;
+  height: 180px;
+/*  width: 300px;*/
+  margin-bottom: 40px;
 }
 
-.contact-text a{
-  color: #D5433D;
+.proj7{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13134483/a01f707a-d5bb-11e5-8e92-90638bf2f60e.png)
+    no-repeat
+    center
+    center;
+  position: relative;
+  height: 376px;
+/*  width: 620px;*/
+  margin-bottom: 40px;
 }
 
-.social-text{
-  font-family: 'Merriweather';
-  font-size: 100%;
-  color: #ababab;
-  border-radius: 20px;
-  letter-spacing: -2px;
-  margin-bottom: 5%;
+.proj8{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13140872/6311d4ec-d5e9-11e5-9f3c-ba941ee34713.png)
+    no-repeat
+    center
+    center;
+  position: relative;
+  height: 180px;
+/*  width: 620px;*/
+  margin-bottom: 40px;
 }
 
-.social-text a{
-  color: #000;
-  font-weight: 500;
+.proj9{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13134485/a028bed2-d5bb-11e5-8eca-d32cd4314428.png)
+    no-repeat
+    center
+    center;
+  position: relative;
+  height: 376px;
+/*  width: 300px;*/
+  margin-bottom: 40px;
 }
 
-*/
+.proj10{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13134486/a029d466-d5bb-11e5-824f-a5af3dc966af.png)
+    no-repeat
+    center
+    center;
+  position: relative;
+  height: 376px;
+/*  width: 620px;*/
+  margin-bottom: 40px;
+}
+
+.proj11{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13134487/a02c85e4-d5bb-11e5-8c29-1149cd0d917d.png)
+    no-repeat
+    center
+    center;
+  position: relative;
+  height: 180px;
+/*  width: 300px;*/
+  margin-bottom: 40px;
+}
+
+.proj12{
+  background:
+    url(https://cloud.githubusercontent.com/assets/5771544/13140873/63224cd2-d5e9-11e5-9f2d-abe8c8873007.png)
+    no-repeat
+    center
+    center;
+  position: relative;
+  height: 180px;
+/*  width: 960px;*/
+}
+
 
 /*------------- screen sizes -----------*/
 
@@ -291,7 +335,23 @@ a:hover,a:focus {
     height: 180px;
     width: 100%;
   }
-
+  .model-background{
+    background: none;
+    background-size: none;
+    background-attachment: none;
+  }
+  .model-background-small{
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+      url(https://cloud.githubusercontent.com/assets/5771544/8023278/60005ca0-0cb9-11e5-9cb8-890053b14956.jpg)
+      no-repeat
+      center
+      center;
+    position: relative;
+    background-size: cover;
+  }
   .hello{
     font-size: 260%;
     letter-spacing: 5px;
@@ -310,7 +370,9 @@ a:hover,a:focus {
   .project-title, .project-company, .project-description, .personal{
     padding-left: 9px;
   }
-
+  .proj-container{
+    width: 600px;
+  }
 }
 
 /* --- phone --- */
@@ -378,6 +440,9 @@ a:hover,a:focus {
   .project-title, .project-company, .project-description, .personal{
     padding-left: 12px;
   }
+  .proj-container{
+    width: 300px;
+  }
   .medium-container{
     margin-top: 9px;
     margin-bottom: 18px;
@@ -390,6 +455,7 @@ a:hover,a:focus {
   }
 
 }
+
 
 
 
