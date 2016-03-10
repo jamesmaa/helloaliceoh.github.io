@@ -175,18 +175,31 @@ a:hover,a:focus {
     no-repeat
     center
     center;
-  height: 376px;
 /*  width: 960px;*/
-  margin-bottom: 40px;
+}
+
+.proj-image{
+  height: 376px;
+  margin-bottom: 40px;  
 }
 
 .proj-image:hover{
-  background-color: #FFD500;
   opacity: 0.7;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
+
+.proj-blurb, .proj-blurb a, .proj-blurb a:hover{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+
 
 .proj2{
   background:
